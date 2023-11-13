@@ -37,14 +37,6 @@ Create and boot a SSH ramdisk on checkm8 devices
     - DO NOT RUN THIS IF THE DEVICE IS ON A REALLY OLD VERSION!!!!!!!
 7. Have fun!
 
-# Linux notes
-
-On Linux, usbmuxd will have to be restarted. On most distros, it's as simple as these 2 commands in another terminal:
-```
-sudo systemctl stop usbmuxd
-sudo usbmuxd -p -f
-```
-
 # Other commands
 
 - Reboot your device: `./sshrd.sh reboot`
